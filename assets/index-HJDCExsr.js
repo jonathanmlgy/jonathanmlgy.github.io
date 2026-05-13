@@ -9850,10 +9850,10 @@ function sd() {
                   className: "flex flex-col lg:flex-row gap-12",
                   children: [
                     s.jsxs("div", {
-                      className: "flex-1",
+                      className: "min-w-0 flex-1",
                       children: [
                         s.jsxs("div", {
-                          className: "flex items-center gap-3 mb-4",
+                          className: "flex flex-wrap items-center gap-3 mb-4",
                           children: [
                             s.jsx("span", {
                               className:
@@ -9923,7 +9923,8 @@ function sd() {
                                 s.jsxs(
                                   "div",
                                   {
-                                    className: "flex items-start gap-4",
+                                    className:
+                                      "flex min-w-0 max-w-full items-start gap-4",
                                     children: [
                                       s.jsx("div", {
                                         className:
@@ -9931,13 +9932,15 @@ function sd() {
                                         children: w.step,
                                       }),
                                       s.jsxs("div", {
+                                        className: "min-w-0 flex-1 overflow-hidden",
                                         children: [
                                           s.jsx("div", {
-                                            className: "font-medium",
+                                            className: "font-medium break-words",
                                             children: w.title,
                                           }),
                                           s.jsx("div", {
-                                            className: "text-sm text-gray-500",
+                                            className:
+                                              "text-sm text-gray-500 break-words",
                                             children: w.desc,
                                           }),
                                         ],
@@ -10109,7 +10112,8 @@ function sd() {
                                 s.jsxs(
                                   "div",
                                   {
-                                    className: "flex items-start gap-4",
+                                    className:
+                                      "flex min-w-0 max-w-full items-start gap-4",
                                     children: [
                                       s.jsx("div", {
                                         className:
@@ -10117,13 +10121,15 @@ function sd() {
                                         children: w.step,
                                       }),
                                       s.jsxs("div", {
+                                        className: "min-w-0 flex-1 overflow-hidden",
                                         children: [
                                           s.jsx("div", {
-                                            className: "font-medium",
+                                            className: "font-medium break-words",
                                             children: w.title,
                                           }),
                                           s.jsx("div", {
-                                            className: "text-sm text-gray-500",
+                                            className:
+                                              "text-sm text-gray-500 break-words",
                                             children: w.desc,
                                           }),
                                         ],
@@ -10528,7 +10534,8 @@ function sd() {
                                 s.jsxs(
                                   "div",
                                   {
-                                    className: "flex items-start gap-4",
+                                    className:
+                                      "flex min-w-0 max-w-full items-start gap-4",
                                     children: [
                                       s.jsx("div", {
                                         className:
@@ -10536,13 +10543,15 @@ function sd() {
                                         children: w.step,
                                       }),
                                       s.jsxs("div", {
+                                        className: "min-w-0 flex-1 overflow-hidden",
                                         children: [
                                           s.jsx("div", {
-                                            className: "font-medium",
+                                            className: "font-medium break-words",
                                             children: w.title,
                                           }),
                                           s.jsx("div", {
-                                            className: "text-sm text-gray-500",
+                                            className:
+                                              "text-sm text-gray-500 break-words",
                                             children: w.desc,
                                           }),
                                         ],
